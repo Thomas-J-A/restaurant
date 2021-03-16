@@ -17,6 +17,7 @@ function addListeners() {
     homeTab.addEventListener('click', switchTab);
     menuTab.addEventListener('click', switchTab);
     contactTab.addEventListener('click', switchTab);
+    addButtonListener();
 }
 
 function switchTab(e) {
@@ -28,6 +29,7 @@ function switchTab(e) {
     switch (e.target.id) {
         case 'home-tab':
             createHomePage();
+            addButtonListener();
             break;
         case 'menu-tab':
             createMenuPage();
@@ -35,5 +37,13 @@ function switchTab(e) {
         case 'contact-tab':
             createContactPage();
             break;
+        case 'btn-order':
+            createMenuPage();
+            break;
     }
+}
+
+function addButtonListener() {
+    const orderBtn = document.getElementById('btn-order');
+    orderBtn.addEventListener('click', switchTab);
 }

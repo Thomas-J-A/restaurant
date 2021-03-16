@@ -1,10 +1,10 @@
 export function createNavbar() {
     const contentDiv = document.getElementById('content');
     const navbar = document.createElement('nav');
-    const logo = document.createElement('span');
-    const homeTab = document.createElement('span');
-    const menuTab = document.createElement('span');
-    const contactTab = document.createElement('span');
+    const logo = document.createElement('div');
+    const homeTab = document.createElement('div');
+    const menuTab = document.createElement('div');
+    const contactTab = document.createElement('div');
 
     logo.setAttribute('id', 'logo');
     logo.textContent = 'Chef Combo';

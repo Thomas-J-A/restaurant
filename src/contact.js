@@ -20,6 +20,7 @@ export function createContactPage() {
     contactDiv.appendChild(hours);
     contactDiv.appendChild(phone);
 
+    mainDiv.classList.add('content-contact');
     mainDiv.appendChild(title);
     mainDiv.appendChild(contactDiv);
 

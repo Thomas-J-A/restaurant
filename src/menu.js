@@ -52,6 +52,7 @@ export function createMenuPage() {
     menu.appendChild(item2);
     menu.appendChild(item3);
 
+    mainDiv.classList.add('content-menu');
     mainDiv.appendChild(title);
     mainDiv.appendChild(menu);
 

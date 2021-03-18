@@ -1,10 +1,10 @@
-import {createNavbar} from './nav.js';
+import {createHeader} from './header.js';
 import {createFooter} from './footer.js';
 import {createHomePage} from './home.js';
 import {createMenuPage} from './menu.js';
-import { createContactPage } from './contact.js';
+import {createContactPage} from './contact.js';
 
-window.addEventListener('load', createNavbar);
+window.addEventListener('load', createHeader);
 window.addEventListener('load', createFooter);
 window.addEventListener('load', createHomePage);
 window.addEventListener('load', addListeners);

@@ -1,8 +1,8 @@
-import {createHeader} from './header.js';
-import {createFooter} from './footer.js';
-import {createHomePage} from './home.js';
-import {createMenuPage} from './menu.js';
-import {createContactPage} from './contact.js';
+import {createHeader} from './modules/header.js';
+import {createFooter} from './modules/footer.js';
+import {createHomePage} from './modules/home.js';
+import {createMenuPage} from './modules/menu.js';
+import {createContactPage} from './modules/contact.js';
 
 window.addEventListener('load', createHeader);
 window.addEventListener('load', createFooter);

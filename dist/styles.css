@@ -159,7 +159,8 @@ footer li i:hover {
 
 #content-menu {
     background: #000;
-    height: calc(100vh - 12rem);
+    height: 100vh;
+    margin-bottom: 4rem;
 }
 
 #content-menu h1 {
@@ -193,7 +194,8 @@ footer li i:hover {
 
 #content-contact {
     background: #000;
-    height: calc(100vh - 12rem);
+    height: 100vh;
+    margin-bottom: 4rem;
 }
 
 #content-contact h1 {
